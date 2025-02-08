@@ -1,0 +1,52 @@
+/* Center Content */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Glassmorphism Effect */
+  .about-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading */
+  .about-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Description */
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .about-button {
+    background-color: gray;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+ 
+  

@@ -1,0 +1,60 @@
+/* Center Content */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Glassmorphism Effect */
+  .home-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  /* Heading */
+  .home-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Description */
+  .home-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .home-button {
+    background-color: gray;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: rgb(71, 70, 70);
+  }
+  
